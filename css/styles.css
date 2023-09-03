@@ -29,6 +29,10 @@ footer{
     align-items: center;
 }
 
+footer p {
+    margin: 25px 0;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -93,6 +97,7 @@ header h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .information h2 {
@@ -125,4 +130,69 @@ header h2 {
     height: 100px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.quote div {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.quote-author{
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 5px;
+    padding: 40px 100px;
+}
+
+.signup-btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+
+.left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-info h3,
+.left-info p {
+    margin: 0;
 }
